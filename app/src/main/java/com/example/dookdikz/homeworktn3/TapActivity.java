@@ -30,8 +30,6 @@ public class TapActivity extends AppCompatActivity {
     }
 
     private void initInstance() {
-        toolbar = (Toolbar) findViewById(R.id.toolBar);
-        setSupportActionBar(toolbar);
         tvCountTap = (TextView) findViewById(R.id.tvCountTap);
         ivBtnTap = (ImageView) findViewById(R.id.ivBtnTab);
         ivBtnTap.setOnClickListener(new View.OnClickListener() {
