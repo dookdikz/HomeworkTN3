@@ -14,10 +14,10 @@ import android.widget.TextView;
  */
 
 public class TapActivity extends AppCompatActivity {
-    TextView tvCountTap;
-    ImageView ivBtnTap;
-    int number;
-    int countNumber=0;
+    private TextView tvCountTap;
+    private ImageView ivBtnTap;
+    private int number;
+    private int countNumber=0;
 
 
     @Override

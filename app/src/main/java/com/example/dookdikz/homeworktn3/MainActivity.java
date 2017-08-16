@@ -10,8 +10,8 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    ImageView btnPlay;
-    EditText etNumber;
+    private ImageView btnPlay;
+    private EditText etNumber;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

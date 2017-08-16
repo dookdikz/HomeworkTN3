@@ -30,13 +30,14 @@
         <EditText
             android:id="@+id/etNumber"
             android:layout_width="300dp"
+            android:padding="10dp"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="#fff"
             android:inputType="number"
             android:textAlignment="center"
             android:textColor="#000"
-            android:textSize="30sp"
+            android:textSize="25sp"
             android:hint="How many tab to win"/>
 
         <ImageView
