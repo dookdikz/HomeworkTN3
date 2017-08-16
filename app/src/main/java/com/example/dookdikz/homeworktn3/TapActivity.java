@@ -18,7 +18,7 @@ public class TapActivity extends AppCompatActivity {
     ImageView ivBtnTap;
     int number;
     int countNumber=0;
-    Toolbar toolbar;
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +39,7 @@ public class TapActivity extends AppCompatActivity {
                 tvCountTap.setText(String.valueOf(countNumber));
                 if(countNumber>=number){
                     Intent intent = new Intent(TapActivity.this,MainActivity.class);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(intent);
                 }
             }
