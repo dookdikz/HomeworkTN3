@@ -18,7 +18,7 @@ public class TapActivity extends AppCompatActivity {
     ImageView ivBtnTap;
     int number;
     int countNumber=0;
-    
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
